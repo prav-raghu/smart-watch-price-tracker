@@ -1,11 +1,29 @@
 {
-  "name": "smart-watch-price-tracker",
+  "name": "samsung-watch-price-tracker-za",
   "version": "1.0.0",
-  "description": "",
-  "main": "samsung-watch-price-tracker-za.js",
+  "description": "A price tracker for Samsung watches in South Africa",
+  "main": "tracker.js",
   "scripts": {
+    "start": "node tracker.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "samsung",
+    "watch",
+    "price",
+    "tracker",
+    "south-africa",
+    "deals"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
